@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  margin-top: 50px;
+  padding: 35px 20px 40px 20px;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 90%;
+    height: 1px;
+    background-color: rgb(184, 80, 43);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 27px;
+    color: brown;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .elem {
+    margin: 0 40px;
+  }
+
+  .communicationMethods {
+    p {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    a {
+      font-size: 24px;
+      margin: 6px;
+      transition: all 0.7s;
+      color: black;
+      &:hover {
+        color: rgb(184, 80, 43);
+      }
+    }
+  }
+
+  .netwSell {
+    display: flex;
+    position: relative;
+    .icoNetw {
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      margin: 15px 20px;
+      position: relative;
+      top: 35px;
+      right: 160px;
+      cursor: pointer;
+      transition: all 0.5s;
+      &:hover {
+        transform: scale(0.8);
+      }
+    }
+  }
+}

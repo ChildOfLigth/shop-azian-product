@@ -1,0 +1,164 @@
+.navigateBlock {
+  position: relative;
+  top: 20px;
+  width: 1200px;
+  height: 50px;
+  padding: 0 10px;
+  background-color: white;
+
+  .prevPage {
+    position: relative;
+    top: 5px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+
+    img {
+      width: 40px;
+    }
+  }
+}
+
+.productCard {
+  display: flex;
+  border-radius: 7px;
+  max-width: 1200px;
+  height: 650px;
+  padding: 20px;
+  margin: 50px 0;
+  background-color: white;
+
+  .defaultPhoto {
+    width: 550px;
+    height: 550px;
+    border-radius: 7px;
+    margin-left: 20px;
+    transition: opacity 0.6s ease-in-out;
+    opacity: 1;
+  }
+
+  .defaultPhoto.hidden {
+    opacity: 0;
+  }
+
+  .dopPhoto {
+    width: 180px;
+    height: 180px;
+    border-radius: 7px;
+    transition: all 0.6s;
+
+    &.animate {
+      opacity: 0.8;
+    }
+  }
+
+  .dataProduct {
+    margin-left: 30px;
+
+    h1 {
+      font-size: 35px;
+      font-weight: 600;
+      color: rgb(136, 56, 27);
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: rgb(136, 56, 27);
+
+      span {
+        color: rgb(184, 80, 43);
+        font-size: 28px;
+        font-weight: 600;
+      }
+    }
+
+    .productQuantity {
+      margin: 30px 0;
+      width: 300px;
+      display: flex;
+
+      .blockButton {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        background-color: #fee8de;
+        border-radius: 7px;
+        padding: 15px;
+        width: 140px;
+        height: 40px;
+
+        button {
+          width: 40px;
+          padding: 5px;
+          border: none;
+          font-size: 26px;
+          font-weight: 600;
+          margin: 0 15px;
+        }
+
+        p {
+          position: relative;
+          top: 4px;
+          font-size: 24px;
+          font-weight: 600;
+          transition: all 0.5s ease-in-out;
+
+          &.zoom {
+            animation: zoomIn 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dopData {
+  background-color: white;
+  width: 1200px;
+  border-radius: 7px;
+  padding: 30px;
+
+  h2 {
+    font-size: 27px;
+    color: rgb(136, 56, 27);
+    font-weight: 600;
+  }
+
+  p {
+    margin: 10px 0;
+    font-size: 25px;
+    line-height: 30px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.dataProcessing {
+  .ico {
+    width: 40px;
+    margin: 0 20px;
+    border: none;
+    img {
+      width: 40px;
+    }
+  }
+  .likeIco {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

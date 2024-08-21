@@ -1,0 +1,61 @@
+.wrapper {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0 90px 0;
+}
+.wrapper h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(136, 56, 27);
+  font-weight: 600;
+  margin: 10px 0;
+}
+.wrapper h2 {
+  font-size: 30px;
+  color: rgb(184, 80, 43);
+  text-align: center;
+  font-weight: 600;
+  margin: 8px 0;
+}
+.wrapper .delivery {
+  margin: 20px 0 40px 0;
+}
+.wrapper .delivery .title {
+  font-size: 25px;
+  color: rgb(184, 80, 43);
+  text-decoration: underline;
+}
+.wrapper .delivery p {
+  font-size: 23px;
+  color: rgb(136, 56, 27);
+}
+.wrapper .payment h2 {
+  font-size: 25px;
+  color: rgb(184, 80, 43);
+  text-decoration: underline;
+}
+.wrapper .payment ul {
+  margin: 10px 0;
+}
+.wrapper .payment ul h3 {
+  font-size: 25px;
+  color: rgb(136, 56, 27);
+  font-weight: 600;
+}
+.wrapper .payment ul li {
+  color: rgb(136, 56, 27);
+  font-size: 22px;
+}
+.wrapper .payment p {
+  font-size: 27px;
+  color: rgb(184, 80, 43);
+  font-weight: 600;
+  margin-top: 20px;
+}
+.wrapper img {
+  position: absolute;
+  top: 520px;
+  right: 30px;
+  width: 300px;
+}

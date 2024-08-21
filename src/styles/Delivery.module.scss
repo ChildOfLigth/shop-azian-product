@@ -1,0 +1,66 @@
+.wrapper {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0 90px 0;
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(136, 56, 27);
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  h2 {
+    font-size: 30px;
+    color: rgb(184, 80, 43);
+    text-align: center;
+    font-weight: 600;
+    margin: 8px 0;
+  }
+
+  .delivery {
+    margin: 20px 0 40px 0;
+    .title {
+      font-size: 25px;
+      color: rgb(184, 80, 43);
+      text-decoration: underline;
+    }
+    p {
+      font-size: 23px;
+      color: rgb(136, 56, 27);
+    }
+  }
+
+  .payment {
+    h2 {
+      font-size: 25px;
+      color: rgb(184, 80, 43);
+      text-decoration: underline;
+    }
+    ul {
+      margin: 10px 0;
+      h3 {
+        font-size: 25px;
+        color: rgb(136, 56, 27);
+        font-weight: 600;
+      }
+      li {
+        color: rgb(136, 56, 27);
+        font-size: 22px;
+      }
+    }
+    p {
+      font-size: 27px;
+      color: rgb(184, 80, 43);
+      font-weight: 600;
+      margin-top: 20px;
+    }
+  }
+
+  img {
+    position: absolute;
+    top: 520px;
+    right: 30px;
+    width: 300px;
+  }
+}

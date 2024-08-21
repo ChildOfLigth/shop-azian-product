@@ -1,0 +1,60 @@
+.navigateBlock {
+  position: absolute;
+  top: 290px;
+  left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 250px;
+  background-color: white;
+  border-radius: 7px;
+  padding: 20px;
+  height: 340px;
+  border-radius: 7px;
+}
+.navigateBlock .headCategoriesBlock {
+  background-color: rgb(136, 56, 27);
+  position: relative;
+  top: -20px;
+  left: -20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: inherit;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.navigateBlock .headCategoriesBlock p {
+  color: white;
+  font-size: 22px;
+  text-align: left;
+}
+.navigateBlock a {
+  font-size: 22px;
+  color: rgb(184, 80, 43);
+  margin-bottom: 15px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.navigateBlock a:hover {
+  color: rgb(136, 56, 27);
+}
+.navigateBlock a.active {
+  color: rgb(136, 56, 27);
+}
+.navigateBlock .categoriesNoodles p {
+  font-size: 22px;
+  color: rgb(184, 80, 43);
+  margin-bottom: 10px;
+}
+.navigateBlock .categoriesNoodles p.active {
+  color: rgb(136, 56, 27);
+}
+.navigateBlock .categoriesNoodles li {
+  font-size: 20px;
+  color: rgb(136, 56, 27);
+  margin-bottom: 30px;
+}

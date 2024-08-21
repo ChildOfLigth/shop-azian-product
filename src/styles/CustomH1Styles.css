@@ -1,0 +1,13 @@
+.categoryBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categoryBlock h1 {
+  margin: 60px 0;
+  font-size: 60px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: rgb(136, 56, 27);
+}

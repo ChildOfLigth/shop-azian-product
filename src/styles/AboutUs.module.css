@@ -1,0 +1,28 @@
+.wrapper {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0 90px 0;
+}
+.wrapper h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(136, 56, 27);
+  font-weight: 600;
+  margin: 10px 0;
+}
+.wrapper p {
+  font-size: 28px;
+  color: rgb(184, 80, 43);
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.wrapper span {
+  font-weight: 700;
+}
+.wrapper img {
+  position: absolute;
+  top: 460px;
+  right: 80px;
+  width: 160px;
+}

@@ -1,0 +1,175 @@
+.navigateBlock {
+  position: relative;
+  top: 20px;
+  width: 1200px;
+  height: 50px;
+  padding: 0 10px;
+  background-color: white;
+}
+.navigateBlock .prevPage {
+  position: relative;
+  top: 5px;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+}
+.navigateBlock .prevPage img {
+  width: 40px;
+}
+
+.productCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 7px;
+  max-width: 1200px;
+  height: 650px;
+  padding: 20px;
+  margin: 50px 0;
+  background-color: white;
+}
+.productCard .defaultPhoto {
+  width: 550px;
+  height: 550px;
+  border-radius: 7px;
+  margin-left: 20px;
+  -webkit-transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.6s ease-in-out;
+  opacity: 1;
+}
+.productCard .defaultPhoto.hidden {
+  opacity: 0;
+}
+.productCard .dopPhoto {
+  width: 180px;
+  height: 180px;
+  border-radius: 7px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.productCard .dopPhoto.animate {
+  opacity: 0.8;
+}
+.productCard .dataProduct {
+  margin-left: 30px;
+}
+.productCard .dataProduct h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(136, 56, 27);
+  margin-bottom: 15px;
+}
+.productCard .dataProduct p {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: rgb(136, 56, 27);
+}
+.productCard .dataProduct p span {
+  color: rgb(184, 80, 43);
+  font-size: 28px;
+  font-weight: 600;
+}
+.productCard .dataProduct .productQuantity {
+  margin: 30px 0;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.productCard .dataProduct .productQuantity .blockButton {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fee8de;
+  border-radius: 7px;
+  padding: 15px;
+  width: 140px;
+  height: 40px;
+}
+.productCard .dataProduct .productQuantity .blockButton button {
+  width: 40px;
+  padding: 5px;
+  border: none;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 15px;
+}
+.productCard .dataProduct .productQuantity .blockButton p {
+  position: relative;
+  top: 4px;
+  font-size: 24px;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.productCard .dataProduct .productQuantity .blockButton p.zoom {
+  -webkit-animation: zoomIn 0.3s ease-in-out;
+          animation: zoomIn 0.3s ease-in-out;
+}
+
+.dopData {
+  background-color: white;
+  width: 1200px;
+  border-radius: 7px;
+  padding: 30px;
+}
+.dopData h2 {
+  font-size: 27px;
+  color: rgb(136, 56, 27);
+  font-weight: 600;
+}
+.dopData p {
+  margin: 10px 0;
+  font-size: 25px;
+  line-height: 30px;
+}
+.dopData p span {
+  font-weight: 600;
+}
+
+.dataProcessing .ico {
+  width: 40px;
+  margin: 0 20px;
+  border: none;
+}
+.dataProcessing .ico img {
+  width: 40px;
+}
+.dataProcessing .likeIco {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}

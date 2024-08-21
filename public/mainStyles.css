@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  background: 0;
+}
+
+*,
+*::before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #fee8de;
+}
+
+.modalCartWindow {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px 30px;
+  width: 480px;
+  height: 250px;
+  border: 1px solid rgb(136, 56, 27);
+  border-radius: 7px;
+  color: rgb(136, 56, 27);
+  text-align: center;
+  transition: all 0.6s;
+  opacity: 1;
+  visibility: visible;
+}
+.modalCartWindow h2 {
+  font-weight: 500;
+  font-size: 27px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.modalCartWindow img {
+  width: 80px;
+  margin: 15px 0;
+}
+.modalCartWindow span {
+  color: brown;
+}
+.modalCartWindow.hiden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modalCartWindow button {
+  position: relative;
+  top: -60px;
+  left: 255px;
+  border: none;
+  cursor: pointer;
+}
+.modalCartWindow button img {
+  width: 20px;
+}
+
+.modalWindComplatePurchas {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px 30px;
+  width: 480px;
+  height: 250px;
+  border: 1px solid rgb(136, 56, 27);
+  border-radius: 7px;
+  color: rgb(136, 56, 27);
+  text-align: center;
+  transition: all 0.6s;
+  opacity: 1;
+  visibility: visible;
+}
+.modalWindComplatePurchas h2 {
+  font-size: 30px;
+  color: rgb(212, 102, 62);
+  font-weight: 600;
+  margin: 10px 0;
+}
+.modalWindComplatePurchas p {
+  font-size: 23px;
+  color: rgb(136, 56, 27);
+  line-height: 30px;
+}
+.modalWindComplatePurchas img {
+  width: 100px;
+}
+.modalWindComplatePurchas button {
+  position: relative;
+  top: -60px;
+  left: 255px;
+  border: none;
+  cursor: pointer;
+}
+.modalWindComplatePurchas button img {
+  width: 20px;
+}
+
+@keyframes hiddenElement {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
